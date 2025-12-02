@@ -1,0 +1,100 @@
+###########################
+# Maven
+###########################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+###########################
+# Gradle (if not used)
+###########################
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+###########################
+# IntelliJ IDEA
+###########################
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+###########################
+# Eclipse
+###########################
+.classpath
+.project
+.settings/
+bin/
+
+###########################
+# VS Code
+###########################
+.vscode/
+
+###########################
+# OS-specific
+###########################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+###########################
+# Logs & Temp
+###########################
+*.log
+*.tmp
+*.swp
+*.swo
+
+###########################
+# Java
+###########################
+*.class
+*.jar
+*.war
+*.ear
+
+###########################
+# Environment / Secrets
+###########################
+.env
+*.env.local
+secret.properties
+application.properties      # <-- Prevent leaking credentials
+!application-example.properties   # <-- Allow example config
+
+###########################
+# Postgres / Docker
+###########################
+pgdata/
+docker-data/
+*.sql~
+*.dump
+*.backup
+
+###########################
+# Node (if frontend inside)
+###########################
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+
+###########################
+# Cache
+###########################
+.cache/
